@@ -1,0 +1,10 @@
+{
+  "name": "claudegambit",
+  "description": "Chess puzzles while Claude thinks. Solve mate-in-1, 2, and 3 puzzles between prompts.",
+  "version": "1.0.0",
+  "author": {
+    "name": "David"
+  },
+  "repository": "https://github.com/gavogavogavo/ClaudeGambit",
+  "license": "MIT"
+}
