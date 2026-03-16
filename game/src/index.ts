@@ -37,6 +37,8 @@ program
   .option('--scale <n>', 'Scale factor (1 or 2)', parseInt, 1)
   .option('--sheet-order <pieces>', 'Piece order in sprite sheet (comma-separated, e.g. white_pawn,white_bishop,...)')
   .option('--outline', 'Enable piece outlines')
+  .option('--signal-file <path>', 'Signal file for pause/resume (plugin mode)')
+  .option('--pid-file <path>', 'PID file path (plugin mode)')
   .action(async (opts) => {
     // Validate input (--dir defaults to sprites3, so only error if --sheet is also absent and dir is missing)
     if (!opts.json && !opts.ansi && !opts.preview && !opts.fen && !opts.puzzle) {
@@ -125,6 +127,8 @@ program
         cellWidth,
         opts.renderSize as number | undefined,
         opts.outline as boolean,
+        opts.signalFile as string | undefined,
+        opts.pidFile as string | undefined,
       );
     }
   });

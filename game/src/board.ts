@@ -2,11 +2,9 @@ import type { RGB, PieceKey, PieceData, RGBA } from './types.js';
 import { convertSprite, addOutline } from './converter.js';
 import { resizePixels } from './decoder.js';
 import { PIECE_ORDER } from './types.js';
+import { LIGHT_SQUARE, DARK_SQUARE, CAPTURE_CORNER } from './colors.js';
 
-export const LIGHT_SQUARE: RGB = [235, 236, 208];
-export const DARK_SQUARE: RGB = [119, 149, 86];
-export const CURSOR_COLOR: RGB = [186, 202, 68];
-export const SELECTED_COLOR: RGB = [100, 149, 237];
+export { LIGHT_SQUARE, DARK_SQUARE } from './colors.js';
 
 const FEN_TO_PIECE: Record<string, PieceKey> = {
   'K': 'white_king', 'Q': 'white_queen', 'R': 'white_rook',
@@ -77,7 +75,6 @@ function darken(c: RGB, factor: number): RGB {
   ];
 }
 
-const CAPTURE_CORNER: RGB = [200, 60, 60];
 
 /**
  * Auto-compute render size to fit board within ~80 chars.

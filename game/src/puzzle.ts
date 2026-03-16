@@ -6,15 +6,21 @@ import {
   parseFEN,
   renderBoardLines,
   prepareSprites,
-  CURSOR_COLOR,
-  SELECTED_COLOR,
   type Board,
   type SpriteCache,
   type SquareHighlight,
   type SquareOverlay,
 } from './board.js';
+import {
+  CURSOR_COLOR, SELECTED_COLOR, CORRECT_COLOR, WRONG_COLOR,
+  OPPONENT_COLOR, HINT_COLOR,
+  BOLD, DIM, RESET, CLR_EOL, HIDE_CURSOR, SHOW_CURSOR, CLEAR_SCREEN, CURSOR_HOME, CLEAR_BELOW,
+  TEAL, GREEN_FG, RED_FG, ORANGE_FG, DIM_GRAY, BORDER_GRAY, WHITE_FG, BRIGHT_WHITE,
+} from './colors.js';
 import { createKeyReader } from './input.js';
 import { SessionStats } from './stats.js';
+import { readSignal, writePidFile } from './signal.js';
+import { showWelcomeScreen, showPauseOverlay } from './overlay.js';
 import {
   showDifficultyMenu,
   AdaptiveDifficulty,
@@ -85,27 +91,10 @@ function getLegalMoveOverlays(game: Chess, rank: number, file: number, board: Bo
   }
 }
 
-const ESC = '\x1b';
-const CLEAR_SCREEN = `${ESC}[2J${ESC}[H`;
-const HIDE_CURSOR = `${ESC}[?25l`;
-const SHOW_CURSOR = `${ESC}[?25h`;
-const BOLD = `${ESC}[1m`;
-const DIM = `${ESC}[2m`;
-const CYAN = `${ESC}[36m`;
-const GREEN = `${ESC}[32m`;
-const RED = `${ESC}[31m`;
-const RESET = `${ESC}[0m`;
-const CLR_EOL = `${ESC}[K`;
-
 const MOVE_DELAY = 800;
 const FLASH_DELAY = 300;
 const SOLUTION_DELAY = 1000;
 const SUCCESS_FLASH = 500;
-
-const CORRECT_COLOR: RGB = [100, 194, 100];
-const WRONG_COLOR: RGB = [220, 50, 50];
-const OPPONENT_COLOR: RGB = [210, 160, 60];
-const HINT_COLOR: RGB = [230, 170, 50];
 
 function sleep(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms));
@@ -126,6 +115,7 @@ interface PuzzleHeader {
   setupSan: string;
   streakText: string;
   difficultyText: string;
+  timerText: string;
 }
 
 function visibleLength(s: string): number {
@@ -139,8 +129,8 @@ function padRight(s: string, width: number): string {
 
 function buildHeaderBox(info: PuzzleHeader, innerWidth: number, successFlash = false): string[] {
   const lines: string[] = [];
-  const borderColor = successFlash ? GREEN : '';
-  const borderReset = successFlash ? RESET : '';
+  const borderColor = successFlash ? GREEN_FG : BORDER_GRAY;
+  const borderReset = RESET;
   const top = `${borderColor}╔${'═'.repeat(innerWidth)}╗${borderReset}`;
   const bot = `${borderColor}╚${'═'.repeat(innerWidth)}╝${borderReset}`;
 
@@ -152,11 +142,12 @@ function buildHeaderBox(info: PuzzleHeader, innerWidth: number, successFlash = f
 
   lines.push(top);
   if (rightInfo) {
-    lines.push(boxLine(`${BOLD}${CYAN}${info.mateType}${RESET}  ${rightInfo}`));
+    lines.push(boxLine(`${BOLD}${TEAL}${info.mateType}${RESET}  ${rightInfo}`));
   } else {
-    lines.push(boxLine(`${BOLD}${CYAN}${info.mateType}${RESET}`));
+    lines.push(boxLine(`${BOLD}${TEAL}${info.mateType}${RESET}`));
   }
-  lines.push(boxLine(`${DIM}Puzzle #${info.puzzleNum}  |  Rating: ${info.rating}${RESET}`));
+  const timerPart = info.timerText ? `  ·  ${info.timerText}` : '';
+  lines.push(boxLine(`${DIM_GRAY}Puzzle #${info.puzzleNum}  ·  Rating: ${info.rating}${timerPart}${RESET}`));
   lines.push(boxLine(''));
   lines.push(boxLine(`You play as ${BOLD}${info.playerColor}${RESET}`));
   lines.push(boxLine(`Opponent played: ${BOLD}${info.setupSan}${RESET}`));
@@ -181,7 +172,7 @@ function drawBoard(
   const innerWidth = Math.max(boardWidth, 40);
   const headerLines = buildHeaderBox(headerInfo, innerWidth, successFlash);
 
-  let output = `${ESC}[H`;
+  let output = CURSOR_HOME;
   for (const line of headerLines) {
     output += line + `${CLR_EOL}\n`;
   }
@@ -195,7 +186,7 @@ function drawBoard(
   }
   output += statusBar + `${CLR_EOL}\n`;
   output += `${CLR_EOL}\n`;
-  output += `${ESC}[J`;
+  output += CLEAR_BELOW;
 
   process.stdout.write(output);
 }
@@ -272,8 +263,15 @@ export async function runPuzzleLoop(
   sprites: Record<PieceKey, RGBA[][]>,
   nativeSize: number,
   renderSize?: number,
-  outline = false
+  outline = false,
+  signalFile?: string,
+  pidFile?: string
 ): Promise<void> {
+  // Write PID file if in plugin mode
+  if (pidFile) {
+    writePidFile(pidFile);
+  }
+
   // Show difficulty menu
   const difficulty = await showDifficultyMenu();
   if (difficulty === null) return;
@@ -294,11 +292,36 @@ export async function runPuzzleLoop(
     return `${DIM}${label}${RESET}`;
   }
 
-  const { readKey, cleanup } = createKeyReader();
+  const { readKey, readKeyWithTimeout, cleanup } = createKeyReader();
 
   process.stdout.write(HIDE_CURSOR + CLEAR_SCREEN);
 
+  // In plugin mode, show welcome screen first
+  if (signalFile) {
+    const welcomeResult = await showWelcomeScreen(readKeyWithTimeout, signalFile);
+    // Whether 'play' or 'signal_resume', continue to difficulty menu
+    process.stdout.write(CLEAR_SCREEN);
+  }
+
   let puzzleNum = 0;
+
+  // Signal-aware input wrapper: checks for pause signals between key reads
+  let redrawFn: (() => void) | null = null;
+  async function waitForInput(): Promise<import('./input.js').KeyPress> {
+    if (!signalFile) return readKey();
+    while (true) {
+      const key = await readKeyWithTimeout(200);
+      if (key) return key;
+      const signal = readSignal(signalFile);
+      if (signal === 'paused') {
+        stats.pauseTimer();
+        const result = await showPauseOverlay(readKeyWithTimeout, signalFile);
+        stats.resumeTimer();
+        process.stdout.write(CLEAR_SCREEN);
+        if (redrawFn) redrawFn();
+      }
+    }
+  }
 
   try {
     gameLoop: while (true) {
@@ -333,6 +356,7 @@ export async function runPuzzleLoop(
           setupSan: '...',
           streakText: stats.formatForHeader(),
           difficultyText: getDifficultyText(),
+          timerText: '',
         };
 
         let cursorRank = playerIsWhite ? 6 : 1;
@@ -377,6 +401,8 @@ export async function runPuzzleLoop(
         const playBar = `${DIM}↑←↓→ Move  ·  Enter Select  ·  Esc Cancel  ·  H Hint  ·  S Skip  ·  Q Quit${RESET}`;
 
         function drawActive(msg?: string) {
+          headerInfo.timerText = stats.formatTimer();
+          headerInfo.streakText = stats.formatForHeader();
           const hintMsg = getHintMessage();
           const fullMsg = msg !== undefined ? msg : message;
           const displayMsg = hintMsg ? (fullMsg ? `${fullMsg}  ${hintMsg}` : hintMsg) : fullMsg;
@@ -388,6 +414,9 @@ export async function runPuzzleLoop(
           }
           drawBoard(board, cache, headerInfo, displayMsg, bar, highlights, getOverlays(), flipped);
         }
+
+        // Set redraw function for signal-aware input
+        redrawFn = () => drawActive();
 
         // Animate setup move
         drawBoard(board, cache, headerInfo, '', playBar, [], [], flipped);
@@ -410,7 +439,7 @@ export async function runPuzzleLoop(
         // Main play loop
         while (moveIndex < puzzle.moves.length) {
           const expectedMove = puzzle.moves[moveIndex];
-          const key = await readKey();
+          const key = await waitForInput();
 
           if (key.type === 'quit') break gameLoop;
 
@@ -449,7 +478,7 @@ export async function runPuzzleLoop(
             // Enter review mode
             headerInfo.streakText = stats.formatForHeader();
             const history = buildMoveHistory(puzzle);
-            const result = await reviewMode(history, cache, headerInfo, readKey, flipped, true);
+            const result = await reviewMode(history, cache, headerInfo, waitForInput, flipped, true);
             if (result === 'quit') break gameLoop;
             if (result === 'retry') { retrying = true; break; }
             break; // next puzzle
@@ -528,7 +557,7 @@ export async function runPuzzleLoop(
                   { rank: moveCoords.from.rank, file: moveCoords.from.file, color: CORRECT_COLOR },
                   { rank: moveCoords.to.rank, file: moveCoords.to.file, color: CORRECT_COLOR },
                 ];
-                message = `${BOLD}${GREEN}Correct!${RESET} ${san}`;
+                message = `${BOLD}${GREEN_FG}Correct!${RESET} ${san}`;
                 drawBoard(board, cache, headerInfo, message, playBar, correctHL, [], flipped);
                 await sleep(MOVE_DELAY);
 
@@ -539,13 +568,13 @@ export async function runPuzzleLoop(
                   headerInfo.streakText = stats.formatForHeader();
 
                   // Success flash
-                  message = `${BOLD}${GREEN}Puzzle solved!${RESET}`;
+                  message = `${BOLD}${GREEN_FG}Puzzle solved!${RESET}`;
                   drawBoard(board, cache, headerInfo, message, playBar, correctHL, [], flipped, true);
                   await sleep(SUCCESS_FLASH);
 
                   // Enter review mode
                   const history = buildMoveHistory(puzzle);
-                  const result = await reviewMode(history, cache, headerInfo, readKey, flipped, true);
+                  const result = await reviewMode(history, cache, headerInfo, waitForInput, flipped, true);
                   if (result === 'quit') break gameLoop;
                   if (result === 'retry') { retrying = true; break; }
                   break; // next puzzle
@@ -570,12 +599,12 @@ export async function runPuzzleLoop(
                     if (adaptive) adaptive.recordSolve();
                     headerInfo.streakText = stats.formatForHeader();
 
-                    message = `${BOLD}${GREEN}Puzzle solved!${RESET}`;
+                    message = `${BOLD}${GREEN_FG}Puzzle solved!${RESET}`;
                     drawBoard(board, cache, headerInfo, message, playBar, opHL, [], flipped, true);
                     await sleep(SUCCESS_FLASH);
 
                     const history = buildMoveHistory(puzzle);
-                    const result = await reviewMode(history, cache, headerInfo, readKey, flipped, true);
+                    const result = await reviewMode(history, cache, headerInfo, waitForInput, flipped, true);
                     if (result === 'quit') break gameLoop;
                     if (result === 'retry') { retrying = true; break; }
                     break;
@@ -591,7 +620,7 @@ export async function runPuzzleLoop(
                 const wrongHL: SquareHighlight[] = [
                   { rank: cursorRank, file: cursorFile, color: WRONG_COLOR },
                 ];
-                message = `${BOLD}${RED}Wrong — try again.${RESET}`;
+                message = `${BOLD}${RED_FG}Wrong — try again.${RESET}`;
                 drawBoard(board, cache, headerInfo, message, playBar, wrongHL, [], flipped);
                 await sleep(FLASH_DELAY);
 

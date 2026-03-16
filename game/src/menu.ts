@@ -1,13 +1,8 @@
 import { createKeyReader } from './input.js';
-
-const ESC = '\x1b';
-const BOLD = `${ESC}[1m`;
-const DIM = `${ESC}[2m`;
-const CYAN = `${ESC}[36m`;
-const RESET = `${ESC}[0m`;
-const HIDE_CURSOR = `${ESC}[?25l`;
-const CLEAR_SCREEN = `${ESC}[2J${ESC}[H`;
-const CLR_EOL = `${ESC}[K`;
+import {
+  BOLD, DIM, RESET, HIDE_CURSOR, CLEAR_SCREEN, CLR_EOL, CURSOR_HOME,
+  TEAL, DIM_GRAY, BRIGHT_WHITE, BORDER_GRAY,
+} from './colors.js';
 
 export type Difficulty = 'easy' | 'medium' | 'hard' | 'adaptive';
 
@@ -41,7 +36,7 @@ function renderMenu(selected: number, innerWidth: number): string {
 
   const lines: string[] = [];
   lines.push(top);
-  lines.push(boxLine(`${BOLD}${CYAN}ClaudeGambit${RESET}`));
+  lines.push(boxLine(`${BOLD}${TEAL}ClaudeGambit${RESET}`));
   lines.push(boxLine(''));
   lines.push(boxLine(`${DIM}Select difficulty:${RESET}`));
   lines.push(boxLine(''));
@@ -71,7 +66,7 @@ export async function showDifficultyMenu(): Promise<Difficulty | null> {
   let selected = 1; // Default to Medium
 
   process.stdout.write(HIDE_CURSOR + CLEAR_SCREEN);
-  process.stdout.write(`${ESC}[H` + renderMenu(selected, 40));
+  process.stdout.write(CURSOR_HOME + renderMenu(selected, 40));
 
   try {
     while (true) {
@@ -82,7 +77,7 @@ export async function showDifficultyMenu(): Promise<Difficulty | null> {
       if (key.type === 'arrow') {
         if (key.direction === 'up' && selected > 0) selected--;
         if (key.direction === 'down' && selected < OPTIONS.length - 1) selected++;
-        process.stdout.write(`${ESC}[H` + renderMenu(selected, 40));
+        process.stdout.write(CURSOR_HOME + renderMenu(selected, 40));
       }
 
       if (key.type === 'enter') {
