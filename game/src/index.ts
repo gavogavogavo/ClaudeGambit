@@ -25,7 +25,7 @@ program
   .name('chess-sprite-converter')
   .description('Convert pixel art chess piece PNGs into ANSI terminal art')
   .option('--sheet <path>', 'Sprite sheet PNG (2 rows x 6 cols)')
-  .option('--dir <path>', 'Directory of 12 individual PNGs', 'sprites3')
+  .option('--dir <path>', 'Directory of 12 individual PNGs', path.join(import.meta.dirname, '..', 'assets'))
   .option('--json <path>', 'Output JSON lookup table')
   .option('--ansi <path>', 'Output raw ANSI file for visual testing')
   .option('--preview', 'Print all pieces directly to terminal')
