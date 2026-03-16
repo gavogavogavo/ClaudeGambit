@@ -1,28 +1,25 @@
 ---
 name: claudegambit
-description: Launch ClaudeGambit — solve chess puzzles while Claude thinks. Opens in a tmux pane alongside your session.
+description: Launch ClaudeGambit — solve chess puzzles while Claude thinks. Opens in a separate terminal window.
 ---
 
 # ClaudeGambit
 
-When invoked, this skill launches the ClaudeGambit chess puzzle game in a side tmux pane.
+When invoked, this skill launches the ClaudeGambit chess puzzle game in a separate terminal window.
 
 ## What it does
 
-1. Checks that tmux is available
-2. Creates a new tmux pane to the right of the current session
-3. Starts the chess puzzle game in paused state
-4. The game automatically resumes when you submit prompts (Claude starts thinking)
-5. The game automatically pauses when Claude finishes responding
+1. Opens a new terminal window with the chess puzzle game
+2. The game automatically resumes when you submit prompts (Claude starts thinking)
+3. The game automatically pauses when Claude finishes responding
 
 ## Usage
 
 The user says `/claudegambit` to start the game.
-The user says `/claudegambit stop` to close the game pane.
+The user says `/claudegambit stop` to close the game.
 
 ## Requirements
 
-- tmux must be installed and the Claude Code session must be running inside tmux
 - Node.js (already required by Claude Code)
 
 ## Launch command

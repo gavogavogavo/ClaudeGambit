@@ -31,7 +31,7 @@ Then run the setup:
 /claudegambit setup
 ```
 
-The game launches in a side pane and auto-pauses/resumes with Claude's thinking cycle.
+The game launches in a separate terminal window and auto-pauses/resumes with Claude's thinking cycle.
 
 ## Run Standalone
 

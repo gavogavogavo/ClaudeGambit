@@ -9,7 +9,6 @@ if [ "$1" = "stop" ]; then
   if [ -f "$PID_FILE" ]; then
     kill "$(cat $PID_FILE)" 2>/dev/null
     rm -f "$PID_FILE" "$SIGNAL_FILE"
-    tmux kill-pane -t claudegambit 2>/dev/null
     echo "ClaudeGambit stopped."
   else
     echo "ClaudeGambit is not running."
@@ -23,17 +22,24 @@ if [ -f "$PID_FILE" ] && kill -0 "$(cat $PID_FILE)" 2>/dev/null; then
   exit 0
 fi
 
-# Check tmux
-if [ -z "$TMUX" ]; then
-  echo "ClaudeGambit requires tmux. Start Claude Code inside a tmux session."
-  exit 1
-fi
-
 # Write initial signal state (paused)
 echo "paused" > "$SIGNAL_FILE"
 
-# Create a new tmux pane to the right, 40% width
-tmux split-window -h -l 40% -t "$TMUX_PANE" \
-  "cd $PLUGIN_DIR/game && npx tsx src/index.ts --puzzle --signal-file $SIGNAL_FILE --pid-file $PID_FILE; rm -f $PID_FILE $SIGNAL_FILE"
+# Launch in a new terminal window
+GAME_CMD="cd $PLUGIN_DIR/game && npx tsx src/index.ts --puzzle --signal-file $SIGNAL_FILE --pid-file $PID_FILE; rm -f $PID_FILE $SIGNAL_FILE"
+
+if [[ "$OSTYPE" == "darwin"* ]]; then
+  osascript -e "tell app \"Terminal\" to do script \"$GAME_CMD\""
+elif command -v gnome-terminal &> /dev/null; then
+  gnome-terminal -- bash -c "$GAME_CMD"
+elif command -v xterm &> /dev/null; then
+  xterm -e bash -c "$GAME_CMD" &
+elif command -v wt.exe &> /dev/null; then
+  wt.exe bash -c "$GAME_CMD"
+else
+  echo "Could not open a new terminal window. Run manually:"
+  echo "  cd $PLUGIN_DIR/game && npx tsx src/index.ts --puzzle"
+  exit 1
+fi
 
 echo "ClaudeGambit launched! Game will activate when you submit your next prompt."
