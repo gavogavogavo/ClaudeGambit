@@ -29,7 +29,15 @@ echo "paused" > "$SIGNAL_FILE"
 GAME_CMD="cd $PLUGIN_DIR/game && npx tsx src/index.ts --puzzle --signal-file $SIGNAL_FILE --pid-file $PID_FILE; rm -f $PID_FILE $SIGNAL_FILE"
 
 if [[ "$OSTYPE" == "darwin"* ]]; then
-  osascript -e "tell app \"Terminal\" to do script \"$GAME_CMD\""
+  # Try Ghostty CLI first, then fall back to open/osascript
+  if command -v ghostty &> /dev/null; then
+    ghostty -e bash -c "$GAME_CMD" &
+  elif [[ "$TERM_PROGRAM" == "iTerm.app" ]]; then
+    osascript -e "tell app \"iTerm\" to tell current window to create tab with default profile" \
+              -e "tell app \"iTerm\" to tell current session of current window to write text \"$GAME_CMD\""
+  else
+    osascript -e "tell app \"Terminal\" to do script \"$GAME_CMD\""
+  fi
 elif command -v gnome-terminal &> /dev/null; then
   gnome-terminal -- bash -c "$GAME_CMD"
 elif command -v xterm &> /dev/null; then
