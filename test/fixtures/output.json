@@ -1,0 +1,9772 @@
+{
+  "meta": {
+    "sprite_width": 12,
+    "sprite_height": 12,
+    "terminal_width": 12,
+    "terminal_height": 6,
+    "generated_at": "2026-03-16T11:36:44.083Z",
+    "source": "test_sprites_12x12.png"
+  },
+  "pieces": {
+    "white_king": [
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            180,
+            180,
+            200
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            180,
+            180,
+            200
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            240,
+            240,
+            240
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            240,
+            240,
+            240
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            240,
+            240,
+            240
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            240,
+            240,
+            240
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            240,
+            240,
+            240
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            240,
+            240,
+            240
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            240,
+            240,
+            240
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            240,
+            240,
+            240
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            240,
+            240,
+            240
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            240,
+            240,
+            240
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            240,
+            240,
+            240
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            240,
+            240,
+            240
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ]
+    ],
+    "white_queen": [
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            180,
+            180,
+            200
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            180,
+            180,
+            200
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            180,
+            180,
+            200
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            180,
+            180,
+            200
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            240,
+            240,
+            240
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            240,
+            240,
+            240
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            240,
+            240,
+            240
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            240,
+            240,
+            240
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            240,
+            240,
+            240
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            240,
+            240,
+            240
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": null,
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": null,
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            240,
+            240,
+            240
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            240,
+            240,
+            240
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": null,
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": null,
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            240,
+            240,
+            240
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            240,
+            240,
+            240
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            240,
+            240,
+            240
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            240,
+            240,
+            240
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            240,
+            240,
+            240
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            240,
+            240,
+            240
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            240,
+            240,
+            240
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            240,
+            240,
+            240
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ]
+    ],
+    "white_rook": [
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            240,
+            240,
+            240
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            240,
+            240,
+            240
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            240,
+            240,
+            240
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            240,
+            240,
+            240
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            240,
+            240,
+            240
+          ],
+          "fg": [
+            240,
+            240,
+            240
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            240,
+            240,
+            240
+          ],
+          "fg": [
+            240,
+            240,
+            240
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            240,
+            240,
+            240
+          ],
+          "fg": [
+            240,
+            240,
+            240
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            240,
+            240,
+            240
+          ],
+          "fg": [
+            240,
+            240,
+            240
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            240,
+            240,
+            240
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            240,
+            240,
+            240
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            240,
+            240,
+            240
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            240,
+            240,
+            240
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ]
+    ],
+    "white_bishop": [
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            180,
+            180,
+            200
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            180,
+            180,
+            200
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            240,
+            240,
+            240
+          ],
+          "fg": [
+            240,
+            240,
+            240
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            240,
+            240,
+            240
+          ],
+          "fg": [
+            240,
+            240,
+            240
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            240,
+            240,
+            240
+          ],
+          "fg": [
+            240,
+            240,
+            240
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            240,
+            240,
+            240
+          ],
+          "fg": [
+            240,
+            240,
+            240
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": null,
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            240,
+            240,
+            240
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            240,
+            240,
+            240
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": null,
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ]
+    ],
+    "white_knight": [
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            180,
+            180,
+            200
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            180,
+            180,
+            200
+          ],
+          "fg": null,
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": null,
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": null,
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            240,
+            240,
+            240
+          ],
+          "fg": [
+            240,
+            240,
+            240
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            240,
+            240,
+            240
+          ],
+          "fg": [
+            240,
+            240,
+            240
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            240,
+            240,
+            240
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            240,
+            240,
+            240
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            240,
+            240,
+            240
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            240,
+            240,
+            240
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            240,
+            240,
+            240
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ]
+    ],
+    "white_pawn": [
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            240,
+            240,
+            240
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            240,
+            240,
+            240
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": null,
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": null,
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            240,
+            240,
+            240
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            240,
+            240,
+            240
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            240,
+            240,
+            240
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            240,
+            240,
+            240
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            240,
+            240,
+            240
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            240,
+            240,
+            240
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            240,
+            240,
+            240
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            240,
+            240,
+            240
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            60,
+            60,
+            60
+          ],
+          "fg": [
+            60,
+            60,
+            60
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ]
+    ],
+    "black_king": [
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            100,
+            100,
+            120
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            100,
+            100,
+            120
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            50,
+            50,
+            50
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            50,
+            50,
+            50
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            50,
+            50,
+            50
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            50,
+            50,
+            50
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            50,
+            50,
+            50
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            50,
+            50,
+            50
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            50,
+            50,
+            50
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            50,
+            50,
+            50
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            50,
+            50,
+            50
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            50,
+            50,
+            50
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            50,
+            50,
+            50
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            50,
+            50,
+            50
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ]
+    ],
+    "black_queen": [
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            100,
+            100,
+            120
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            100,
+            100,
+            120
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            100,
+            100,
+            120
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            100,
+            100,
+            120
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            50,
+            50,
+            50
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            50,
+            50,
+            50
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            50,
+            50,
+            50
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            50,
+            50,
+            50
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            50,
+            50,
+            50
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            50,
+            50,
+            50
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": null,
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": null,
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            50,
+            50,
+            50
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            50,
+            50,
+            50
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": null,
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": null,
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            50,
+            50,
+            50
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            50,
+            50,
+            50
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            50,
+            50,
+            50
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            50,
+            50,
+            50
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            50,
+            50,
+            50
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            50,
+            50,
+            50
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            50,
+            50,
+            50
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            50,
+            50,
+            50
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ]
+    ],
+    "black_rook": [
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            50,
+            50,
+            50
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            50,
+            50,
+            50
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            50,
+            50,
+            50
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            50,
+            50,
+            50
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            50,
+            50,
+            50
+          ],
+          "fg": [
+            50,
+            50,
+            50
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            50,
+            50,
+            50
+          ],
+          "fg": [
+            50,
+            50,
+            50
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            50,
+            50,
+            50
+          ],
+          "fg": [
+            50,
+            50,
+            50
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            50,
+            50,
+            50
+          ],
+          "fg": [
+            50,
+            50,
+            50
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            50,
+            50,
+            50
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            50,
+            50,
+            50
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            50,
+            50,
+            50
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            50,
+            50,
+            50
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ]
+    ],
+    "black_bishop": [
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            100,
+            100,
+            120
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            100,
+            100,
+            120
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            50,
+            50,
+            50
+          ],
+          "fg": [
+            50,
+            50,
+            50
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            50,
+            50,
+            50
+          ],
+          "fg": [
+            50,
+            50,
+            50
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            50,
+            50,
+            50
+          ],
+          "fg": [
+            50,
+            50,
+            50
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            50,
+            50,
+            50
+          ],
+          "fg": [
+            50,
+            50,
+            50
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": null,
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            50,
+            50,
+            50
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            50,
+            50,
+            50
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": null,
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ]
+    ],
+    "black_knight": [
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            100,
+            100,
+            120
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            100,
+            100,
+            120
+          ],
+          "fg": null,
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": null,
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": null,
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            50,
+            50,
+            50
+          ],
+          "fg": [
+            50,
+            50,
+            50
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            50,
+            50,
+            50
+          ],
+          "fg": [
+            50,
+            50,
+            50
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            50,
+            50,
+            50
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            50,
+            50,
+            50
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            50,
+            50,
+            50
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            50,
+            50,
+            50
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            50,
+            50,
+            50
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ]
+    ],
+    "black_pawn": [
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            50,
+            50,
+            50
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            50,
+            50,
+            50
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": null,
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": null,
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            50,
+            50,
+            50
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            50,
+            50,
+            50
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            50,
+            50,
+            50
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            50,
+            50,
+            50
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            50,
+            50,
+            50
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            50,
+            50,
+            50
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            50,
+            50,
+            50
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            50,
+            50,
+            50
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ],
+      [
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": [
+            30,
+            30,
+            30
+          ],
+          "fg": [
+            30,
+            30,
+            30
+          ],
+          "char": "▄",
+          "t_top": false,
+          "t_bottom": false
+        },
+        {
+          "bg": null,
+          "fg": null,
+          "char": "▄",
+          "t_top": true,
+          "t_bottom": true
+        }
+      ]
+    ]
+  }
+}
